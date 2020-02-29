@@ -824,12 +824,23 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
+.image.about {
+  display: block;
+  margin: 0 auto;
+}
+
 .image.main img {
   width: 100%;
 }
 
 .image.work img {
   width: 50%;
+}
+
+.image.about img {
+  width: 100%;
+  -webkit-clip-path: inset(100px 0 100px 0);
+  clip-path: inset(100px 0 100px 0);
 }
 
 @media screen and (max-width: 736px) {
